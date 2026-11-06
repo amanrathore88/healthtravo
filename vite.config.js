@@ -7,4 +7,13 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name]-ht-${Date.now()}.js`,
+        chunkFileNames: `assets/[name]-ht-${Date.now()}.js`,
+        assetFileNames: `assets/[name]-ht-${Date.now()}.[ext]`
+      }
+    }
+  }
 })
