@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+dist-ssr/
+*.zip
+
+# Environment & credentials
+.env
+.env*.local
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temp, scratch and test captures
+scratch/
+edge-temp/
+extracted_slides/
+rendered_pages/
+screenshots/
+capture_about.cjs
+capture_hero.cjs
+test_reveal.cjs
+test_text_anim.cjs
+
+# Presentation and reference raw docs (not required for website deployment)
+*.pdf
+!public/*.pdf
+1772120883957~2.png
